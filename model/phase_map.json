@@ -1,0 +1,8 @@
+{
+  "taxi-out": 0,
+  "pushback": 1,
+  "final check": 2,
+  "boarding": 3,
+  "pre-departure": 4,
+  "engine start": 5
+}

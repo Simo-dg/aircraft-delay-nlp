@@ -5,19 +5,19 @@ import pandas as pd
 import os
 
 st.set_page_config(page_title="Aircraft Delay Classifier", layout="centered")
-
 st.title("✈️ Aircraft Delay Log Classifier")
-st.markdown("Classifica automaticamente un log operativo aeroportuale in base alla descrizione scritta dall’operatore.")
-MODEL_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../model/delay_classifier"))
+st.markdown("Predicts the delay category, operational phase, and whether the delay was predictable.")
 
-# Load model and tokenizer
+# Load models
 @st.cache_resource
-def load_model():
-    model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH)
+def load_models():
+    model_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../model"))
+    label_model = AutoModelForSequenceClassification.from_pretrained(os.path.join(model_path, "delay_classifier"))
+    phase_model = AutoModelForSequenceClassification.from_pretrained(os.path.join(model_path, "delay_phase_classifier"))
     tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
-    return model.eval(), tokenizer
+    return label_model.eval(), phase_model.eval(), tokenizer
 
-model, tokenizer = load_model()
+label_model, phase_model, tokenizer = load_models()
 
 label_map = {
     0: "TECHNICAL_FAILURE",
@@ -28,27 +28,48 @@ label_map = {
     5: "SECURITY"
 }
 
-# Prediction function
-def predict_label(text):
+phase_map = {
+    0: "pre-departure",
+    1: "boarding",
+    2: "pushback",
+    3: "final check",
+    4: "engine start",
+    5: "taxi-out"
+}
+
+def predict(text, model):
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
     with torch.no_grad():
         outputs = model(**inputs)
-        probs = torch.softmax(outputs.logits, dim=1).squeeze().tolist()
-        pred_idx = torch.argmax(outputs.logits, dim=1).item()
-    return label_map[pred_idx], probs
+        logits = outputs.logits
+        probs = torch.softmax(logits, dim=1).squeeze().tolist()
+        pred_idx = torch.argmax(logits, dim=1).item()
+    return pred_idx, probs
 
-# Text input
-user_input = st.text_area("✍️ Inserisci descrizione ritardo", height=150, placeholder="Es: Late pushback due to hydraulic pump issue discovered during final check.")
 
-if st.button("Classifica"):
-    if user_input.strip():
-        label, probs = predict_label(user_input)
-        st.success(f"**🧠 Predizione:** `{label}`")
-        st.subheader("📊 Confidence")
+def is_predictable(label):
+    predictable = {"WEATHER", "CREW_DELAY", "LOGISTICS_ISSUE"}
+    return "PREDICTABLE" if label in predictable else "UNPREDICTABLE"
+
+text = st.text_area("✍️ Enter delay description", height=150, placeholder="e.g., Late pushback due to hydraulic pump issue discovered during final check.")
+
+if st.button("Predict"):
+    if text.strip():
+        label_idx, label_probs = predict(text, label_model)
+        phase_idx, _ = predict(text, phase_model)
+
+        label = label_map[label_idx]
+        phase = phase_map[phase_idx]
+        predictability = is_predictable(label)
+
+        st.markdown(f"**🧠 Category:** `{label}`")
+        st.markdown(f"**🧭 Phase:** `{phase}`")
+        st.markdown(f"**🔮 Predictability:** `{predictability}`")
+
         df_probs = pd.DataFrame({
-            "Classe": list(label_map.values()),
-            "Probabilità": [round(p, 3) for p in probs]
-        }).sort_values("Probabilità", ascending=False)
-        st.bar_chart(df_probs.set_index("Classe"))
+            "Category": list(label_map.values()),
+            "Confidence": [round(p, 3) for p in label_probs]
+        }).sort_values("Confidence", ascending=False)
+        st.bar_chart(df_probs.set_index("Category"))
     else:
-        st.warning("Inserisci una descrizione valida per procedere.")
+        st.warning("Please enter a valid log description.")

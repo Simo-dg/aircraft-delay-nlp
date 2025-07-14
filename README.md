@@ -1,16 +1,110 @@
-# Aircraft Delay Log Intelligence
+# ✈️ Aircraft Delay Log Intelligence
 
-This project uses NLP to classify and explain aircraft delay reports using transformer models.
+An end-to-end NLP pipeline for classifying operational aircraft delay logs. This project uses fine-tuned transformer models to predict the **delay cause**, **operational phase**, and **predictability**, enabling structured understanding of free-text reports from airline operations.
 
-## Structure
-- `data/`: Contains synthetic dataset and label map
-- `notebooks/`: Jupyter notebooks for EDA, training, evaluation
-- `model/`: Trained models (optional)
-- `streamlit_app/`: Web app for interactive predictions
+---
 
-## Tasks
-1. Text classification of delay cause
-2. Optional: Named Entity Recognition (NER)
-3. Optional: Streamlit demo for user interface
+## 🔍 Example
 
-Run `pip install -r requirements.txt` to get started.
+**Input**:  
+`Late pushback due to hydraulic pump issue discovered during final check.`
+
+**Output**:
+- 🧠 Category: `TECHNICAL_FAILURE`
+- 🧭 Phase: `final check`
+- 🔮 Predictability: `UNPREDICTABLE`
+
+---
+
+## 🎯 Use Case
+
+Airlines generate thousands of unstructured delay reports from pilots, crew, and ground staff. This tool transforms those into structured, actionable insights — useful for analytics, automation, and training.
+
+---
+
+## 🧠 Tasks
+
+| Task | Description |
+|------|-------------|
+| **Text Classification** | Predicts 6 delay types (e.g., TECHNICAL_FAILURE, WEATHER) |
+| **Phase Prediction** | Predicts operational phase (e.g., boarding, pushback) |
+| **Predictability Estimation** | Heuristic logic: certain delays are predictable |
+| **Interpretability** | Attention-based token attribution |
+| **Streamlit App** | Interactive interface for real-time predictions |
+
+---
+
+## 🧾 Dataset
+
+A synthetic dataset of 300+ logs was created using domain-aware GPT prompting, with the following fields:
+- `log_text` (description)
+- `label` (category)
+- `phase` (operational step)
+- `severity` (low, medium, high)
+
+📁 File: `data/synthetic_logs.csv`
+
+---
+
+## 🏗️ Models
+
+- `bert-base-uncased` fine-tuned using Hugging Face Transformers
+- Separate models for:
+  - Delay category: `delay_classifier/`
+  - Operational phase: `delay_phase_classifier/`
+
+---
+
+## 🖥️ Streamlit Demo
+
+Launch locally:
+
+```bash
+cd streamlit_app
+streamlit run app.py
+```
+
+---
+
+## 📊 Evaluation
+
+| Task | Metric | Score |
+|------|--------|-------|
+| Delay Category Classification | F1 (weighted) | 0.92 |
+| Phase Prediction | F1 (weighted) | 0.88 |
+
+---
+
+## 🧪 Sample Logs to Test
+
+```
+Flight held at gate due to ATC departure slot congestion.
+→ Category: ATC_RESTRICTION | Phase: pre-departure | UNPREDICTABLE
+
+Fueling truck arrived late, delaying pushback.
+→ LOGISTICS_ISSUE | pre-departure | PREDICTABLE
+
+Crew rest period exceeded; replacement crew dispatched.
+→ CREW_DELAY | pre-departure | PREDICTABLE
+```
+
+---
+
+## 📂 Project Structure
+
+```
+aircraft-delay-nlp/
+├── data/                 # CSV + label maps
+├── model/                # Saved models
+├── notebooks/            # Training + inference
+├── streamlit_app/        # Streamlit interface
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🔗 GitHub
+
+[github.com/Simo-dg/aircraft-delay-nlp](https://github.com/Simo-dg/aircraft-delay-nlp)
+
