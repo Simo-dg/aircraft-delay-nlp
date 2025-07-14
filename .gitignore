@@ -1,0 +1,23 @@
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Model artifacts
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.onnx
+
+# Model folders
+model/delay_classifier/
+model/delay_phase_classifier/
+
+
