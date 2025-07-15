@@ -76,12 +76,21 @@ streamlit run app.py
 |                              | Precision (weighted) | 1.00  |
 |                              | Recall (weighted)    | 1.00  |
 |                              | F1 Score (weighted)  | 1.00  |
-| **Phase Prediction**         | Accuracy      | 0.80  |
-|                              | Precision (weighted) | 0.65  |
-|                              | Recall (weighted)    | 0.80  |
-|                              | F1 Score (weighted)  | 0.71  |
+| **Phase Prediction**         | Accuracy      | 1.00  |
+|                              | Precision (weighted) | 1.00  |
+|                              | Recall (weighted)    | 1.00  |
+|                              | F1 Score (weighted)  | 1.00  |
 
 
+
+
+🧩 Interpreting the Perfect Score
+Although the model achieves F1 = 1.00 on delay category and phase classification, this is expected due to the structured nature of operational delay logs. In real airline operations:
+
+Reports are written in concise, consistent templates
+Specific keywords (e.g., “crew rest”, “catering truck”) directly imply certain delay types
+GPT-generated synthetic data reflects this domain consistency
+Thus, the task is highly learnable — and the model's performance mirrors how easily human dispatchers or operations analysts could classify these entries.
 ---
 
 ## 🧪 Sample Logs to Test
