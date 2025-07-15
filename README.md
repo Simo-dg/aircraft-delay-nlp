@@ -84,14 +84,14 @@ streamlit run app.py
 
 
 
-## 🧩 Interpreting the Perfect Score
+## 🧩 Interpreting the Perfect Score 
 
-
-Although the model achieves F1 = 1.00 on delay category and phase classification, this is expected due to the structured nature of operational delay logs. In real airline operations:
+Altough the model achieves F1 = 1.00 on delay category and phase classification, this is expected due to the structured nature of operational delay logs. In real airline operations:
 Reports are written in concise, consistent templates
 Specific keywords (e.g., “crew rest”, “catering truck”) directly imply certain delay types
 GPT-generated synthetic data reflects this domain consistency
 Thus, the task is highly learnable — and the model's performance mirrors how easily human dispatchers or operations analysts could classify these entries
+
 ---
 
 ## 🧪 Sample Logs to Test
