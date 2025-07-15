@@ -1,0 +1,241 @@
+log_text,label,component,phase,severity,labels
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Late pushback due to avionics panel issue discovered during engine start.,TECHNICAL_FAILURE,avionics panel,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in fuel valve during pre-departure.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Late pushback due to hydraulic pump issue discovered during pre-departure.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Late pushback due to fuel valve issue discovered during final check.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Technical inspection revealed anomaly in avionics panel during pre-departure.,TECHNICAL_FAILURE,avionics panel,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Late pushback due to nose gear issue discovered during engine start.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Late pushback due to hydraulic pump issue discovered during final check.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in oxygen system during taxi-out.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Late pushback due to hydraulic pump issue discovered during pushback.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in fuel valve during pushback.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Late pushback due to nose gear issue discovered during final check.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Technical inspection revealed anomaly in oxygen system during taxi-out.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Late pushback due to auxiliary power unit issue discovered during pre-departure.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in oxygen system during taxi-out.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in fuel valve during final check.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Late pushback due to avionics panel issue discovered during final check.,TECHNICAL_FAILURE,avionics panel,final check,medium,0
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Technical inspection revealed anomaly in nose gear during taxi-out.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Late pushback due to nose gear issue discovered during boarding.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Technical inspection revealed anomaly in nose gear during taxi-out.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Late pushback due to hydraulic pump issue discovered during final check.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Technical inspection revealed anomaly in auxiliary power unit during taxi-out.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Late pushback due to auxiliary power unit issue discovered during engine start.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Technical inspection revealed anomaly in fuel valve during taxi-out.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Technical inspection revealed anomaly in fuel valve during boarding.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Late pushback due to fuel valve issue discovered during pre-departure.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Late pushback due to avionics panel issue discovered during pushback.,TECHNICAL_FAILURE,avionics panel,final check,medium,0
+Late pushback due to fuel valve issue discovered during boarding.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Late pushback due to auxiliary power unit issue discovered during pre-departure.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Late pushback due to hydraulic pump issue discovered during taxi-out.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Late pushback due to oxygen system issue discovered during taxi-out.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Late pushback due to auxiliary power unit issue discovered during pushback.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Technical inspection revealed anomaly in hydraulic pump during engine start.,TECHNICAL_FAILURE,hydraulic pump,final check,medium,0
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Late pushback due to nose gear issue discovered during boarding.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Late pushback due to oxygen system issue discovered during pushback.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Technical inspection revealed anomaly in nose gear during pushback.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Snow accumulation on runway required additional clearance.,WEATHER,,engine start,high,2
+Late pushback due to fuel valve issue discovered during boarding.,TECHNICAL_FAILURE,fuel valve,final check,medium,0
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in auxiliary power unit during boarding.,TECHNICAL_FAILURE,auxiliary power unit,final check,medium,0
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Departure delayed due to low visibility and strong crosswinds.,WEATHER,,engine start,high,2
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+"Catering truck arrived late, delaying final boarding procedures.",LOGISTICS_ISSUE,,pushback,low,4
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Holding pattern caused by ATC congestion over destination airport.,ATC_RESTRICTION,,taxi-out,medium,3
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Crew rest requirements caused delay in dispatch readiness.,CREW_DELAY,,pre-departure,medium,1
+Late pushback due to nose gear issue discovered during pre-departure.,TECHNICAL_FAILURE,nose gear,final check,medium,0
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Technical inspection revealed anomaly in oxygen system during pre-departure.,TECHNICAL_FAILURE,oxygen system,final check,medium,0
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Extended taxi-in due to temporary runway closure by ATC.,ATC_RESTRICTION,,taxi-out,medium,3
+Security clearance delay due to unattended baggage reported at gate.,SECURITY,,boarding,high,5
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Passenger screening issue caused departure gate to close late.,SECURITY,,boarding,medium,5
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4
+Flight crew delayed in transit from inbound connection.,CREW_DELAY,,pre-departure,low,1
+Missing ground power unit required last-minute replacement.,LOGISTICS_ISSUE,,pushback,medium,4

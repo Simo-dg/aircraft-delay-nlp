@@ -68,10 +68,19 @@ streamlit run app.py
 
 ## 📊 Evaluation
 
-| Task | Metric | Score |
-|------|--------|-------|
-| Delay Category Classification | F1 (weighted) | 0.92 |
-| Phase Prediction | F1 (weighted) | 0.88 |
+## 📊 Evaluation Metrics
+
+| Task                        | Metric       | Score |
+|-----------------------------|--------------|-------|
+| **Delay Category Classification** | Accuracy      | 1.00  |
+|                              | Precision (weighted) | 1.00  |
+|                              | Recall (weighted)    | 1.00  |
+|                              | F1 Score (weighted)  | 1.00  |
+| **Phase Prediction**         | Accuracy      | 0.80  |
+|                              | Precision (weighted) | 0.65  |
+|                              | Recall (weighted)    | 0.80  |
+|                              | F1 Score (weighted)  | 0.71  |
+
 
 ---
 
